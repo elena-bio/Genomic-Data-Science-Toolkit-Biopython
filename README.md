@@ -4,6 +4,54 @@
 
 This repository contains a Biopython-based script that accompanies the project **"Identify the Species of an Unknown DNA Sequence Using BLAST"**. The script allows users to input a FASTA file with DNA sequences and uses the NCBI BLAST (Basic Local Alignment Search Tool) service to identify the species from which the DNA sequence likely originated.
 
+## Requirements
+
+To run this script, you need the following:
+
+- **Python 3.x**: Make sure Python 3.x is installed. You can check your Python version by running:
+  
+    ```bash
+    python --version
+    ```
+
+- **Biopython library**: The script depends on the Biopython library for BLAST functionalities. To install it, use the following pip command:
+
+    ```bash
+    pip install biopython
+    ```
+
+- **Internet connection**: Since the script performs BLAST searches via NCBI, an active internet connection is required to fetch the BLAST results.
+
+## How to Run the Script
+
+Follow the steps below to execute the script:
+
+1. **Clone the repository**: First, clone the repository from GitHub to your local machine.
+
+    ```bash
+    git clone https://github.com/YOUR_USERNAME/Genomic-Data-Science-Toolkit-Biopython.git
+    ```
+
+2. **Navigate to the project directory**: Change into the directory where the repository was cloned.
+
+    ```bash
+    cd Genomic-Data-Science-Toolkit-Biopython
+    ```
+
+3. **Run the Python script**: Make sure that the `myseq.fa` file (your input FASTA sequence) is in the same directory as the Python script. Then, run the script by executing:
+
+    ```bash
+    python Bio-python.py
+    ```
+
+## Example Usage
+
+For instance, if you have a FASTA file `myseq.fa` in the same directory, simply run:
+
+```bash
+python Bio-python.py
+
+
 ## Script Explanation
 
 The script includes:
