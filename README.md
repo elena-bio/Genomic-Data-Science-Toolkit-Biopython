@@ -50,7 +50,7 @@ For instance, if you have a FASTA file `myseq.fa` in the same directory, simply 
 
 ```bash
 python Bio-python.py
-
+```
 
 ## Script Explanation
 
@@ -113,14 +113,7 @@ def perform_blast(file_path, e_value_threshold=0.01):
 
 # Call the function with your FASTA file in the same directory
 perform_blast("myseq.fa")
-## Requirements
-
-- **Python 3.x**: Ensure that you have Python 3.x installed on your system.
-- **Biopython library**: The script relies on the Biopython library. You can install it using pip:
-
-    ```bash
-    pip install biopython
-    ```
+```
 
 - **Internet connection**: The script sends BLAST requests to NCBI servers, so an active internet connection is required for the script to function.
 
