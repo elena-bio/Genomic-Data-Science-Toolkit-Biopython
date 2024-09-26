@@ -1,5 +1,3 @@
-# Genomic-Data-Science-Toolkit-Biopython
-
 ## Project Overview
 
 This repository contains a Biopython-based script that accompanies the project **"Identify the Species of an Unknown DNA Sequence Using BLAST"**. The script allows users to input a FASTA file with DNA sequences and uses the NCBI BLAST (Basic Local Alignment Search Tool) service to identify the species from which the DNA sequence likely originated.
